@@ -1,0 +1,96 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e6f0ff; /* Warna latar belakang lembut */
+    margin: 0;
+    padding: 20px;
+}
+
+.table-container {
+    background-color: #ffffff; /* Latar belakang jadual */
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    margin: auto;
+    max-width: 900px;
+}
+
+h2 {
+    text-align: center;
+    color: #004080; /* Biru gelap */
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+input[type="date"] {
+    padding: 10px;
+    border: 1px solid #007bff; /* Biru */
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input[type="date"]:focus {
+    border-color: #0056b3; /* Biru lebih gelap semasa fokus */
+    outline: none;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; /* Biru */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Biru lebih gelap */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #004080; /* Biru gelap */
+    color: white;
+}
+
+tr:hover {
+    background-color: #e0f0ff; /* Biru lembut semasa hover */
+}
+
+a {
+    color: #d9534f; /* Merah untuk padam */
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+a:hover {
+    background-color: #f8d7da; /* Latar belakang merah lembut semasa hover */
+}
+
+body {
+    background-image: url('path_to_your_background_image.jpg');
+    background-size: cover;
+    background-position: center;
+}
